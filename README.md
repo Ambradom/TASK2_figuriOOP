@@ -1,16 +1,22 @@
-JavaFX Example: Drawing Shapes on a Canvas
+---
+
+## JavaFX Example: Drawing Shapes on a Canvas
+
 This example demonstrates how to use the JavaFX library to draw various shapes on a canvas in an application. The controller class handles the drawing of different shapes such as rectangles, lines, triangles, and ovals when corresponding buttons are clicked. Each shape is drawn using specific methods provided by the GraphicsContext class.
 
-Class Overview
-The main class for this example is HelloController, which contains methods for each type of shape to be drawn. These methods include:
+#### Class Overview
 
-drawRectangleButton: Draws a rounded rectangle.
-drawTriangleButton: Draws a triangle.
-drawCircleButton: Draws an circle.
+The main class for this example is `ShapeDrawer.java`, which contains methods for each type of shape to be drawn. These methods include:
+
+- `drawRectangleButton`: Draws a rounded rectangle.
+- `drawTriangleButton`: Draws a triangle.
+- `drawCircleButton`: Draws an circle.
+
 Each method clears the canvas before drawing the new shape with specified colors and thicknesses.
 
-Example Code
+### Example Code
 
+```java
 package org.example.demo9;
 
 import javafx.application.Application;
